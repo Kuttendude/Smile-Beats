@@ -1,108 +1,135 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ideate Solution | Smile Beats</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="pages.css">
-</head>
-<body>
-  <nav class="nav">
-    <div class="nav-container">
-      <a href="index.html" class="logo-link">
-        <img src="logo.png" alt="Smile Beats" class="nav-logo">
-        <span>Smile Beats</span>
-      </a>
-      <div class="nav-right">
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="background-research.html">Background Research & Problem Definition</a></li>
-          <li><a href="ideate-solution.html" class="active">Ideate Solution</a></li>
-          <li><a href="final-engineeringdesign.html">Final Engineering Design</a></li>
-          <li><a href="test-reflect.html">Test & Reflect</a></li>
-          <li><a href="the-team.html">The Team</a></li>
-        </ul>
-        <a href="background-research.html" class="nav-cta">View Our Process</a>
+<main class="main-content">
+  <a href="index.html" class="back-home">← Back to Home</a>
+
+  <!-- Key Design Goals -->
+  <section class="page-section fade-in">
+    <h2>Key Design Goals (Solution Requirements)</h2>
+    <p>
+      Before choosing our final design, we ranked the most important requirements using a numeric system 
+      (High = 3, Medium = 2, Low = 1). This helped us focus on what actually mattered.
+    </p>
+
+    <div class="idea-grid">
+      <div class="idea-card">
+        <h3>Affordable</h3>
+        <p>Needed to be under $45 while still maintaining quality.</p>
       </div>
-      <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
-    </div>
-  </nav>
-
-  <header class="page-hero">
-    <h1>Ideate Solution</h1>
-    <p>Exploring concepts and selecting the right approach for Brush Buddy.</p>
-  </header>
-
-  <main class="main-content">
-    <a href="index.html" class="back-home">← Back to Home</a>
-
-    <section class="page-section fade-in">
-      <h2>Brainstorming</h2>
-      <p>We explored multiple directions for addressing kids' brushing challenges. Here are some of the ideas we considered during our brainstorming sessions.</p>
-      <div class="idea-grid">
-        <div class="idea-card">
-          <h3>Music timer toothbrush</h3>
-          <p>Toothbrush with built-in speaker that plays a 2-minute song.</p>
-        </div>
-        <div class="idea-card">
-          <h3>App-based timer</h3>
-          <p>Phone or tablet app that plays music and times brushing.</p>
-        </div>
-        <div class="idea-card">
-          <h3>Reward stickers</h3>
-          <p>Physical sticker chart to track and reward brushing.</p>
-        </div>
-        <div class="idea-card">
-          <h3>Smart mirror display</h3>
-          <p>Bathroom mirror that shows a timer and fun animations.</p>
-        </div>
+      <div class="idea-card">
+        <h3>Tracks Brushing</h3>
+        <p>Must detect if brushing actually happens, not just time it.</p>
       </div>
-    </section>
-
-    <section class="page-section fade-in">
-      <h2>Concepts Considered</h2>
-      <p>We narrowed our brainstorm to concepts that were feasible, kid-friendly, and directly addressed the timing and engagement problem. We evaluated each for manufacturability, cost, and impact.</p>
-    </section>
-
-    <section class="page-section fade-in">
-      <h2>Why Brush Buddy Won</h2>
-      <p>Brush Buddy emerged as the strongest concept because it combines music and timing into a single, kid-held device. No phone or screen required — kids can use it independently. The 2-minute song makes the time tangible and enjoyable. Parent connectivity adds accountability. It's simple, scalable, and directly solves the problem.</p>
-    </section>
-
-    <section class="page-section fade-in">
-      <h2>Early Sketches</h2>
-      <div class="placeholder-grid">
-        <div class="placeholder-box">Sketch placeholder</div>
-        <div class="placeholder-box">Sketch placeholder</div>
-        <div class="placeholder-box">Sketch placeholder</div>
+      <div class="idea-card">
+        <h3>Parent Notifications</h3>
+        <p>Parents should know if brushing was completed or skipped.</p>
       </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="footer-container">
-      <div class="footer-brand">
-        <img src="logo.png" alt="Smile Beats" class="footer-logo">
-        <div class="footer-text">
-          <h3>Smile Beats</h3>
-          <p>Two Minutes, One Big Smile!</p>
-        </div>
+      <div class="idea-card">
+        <h3>2-Minute Music Timer</h3>
+        <p>Keeps kids engaged for the full brushing time.</p>
       </div>
-      <div class="footer-links">
-        <a href="index.html">Home</a>
-        <a href="background-research.html">Background Research</a>
-        <a href="ideate-solution.html">Ideate Solution</a>
-        <a href="final-engineeringdesign.html">Final Engineering Design</a>
-        <a href="test-reflect.html">Test & Reflect</a>
-        <a href="the-team.html">The Team</a>
+      <div class="idea-card">
+        <h3>Comfort + Size</h3>
+        <p>Must fit a child’s mouth and be comfortable to use.</p>
+      </div>
+      <div class="idea-card">
+        <h3>Long-Term Use</h3>
+        <p>Needs to last over time and allow replacement heads.</p>
       </div>
     </div>
-  </footer>
+  </section>
 
-  <script src="script.js"></script>
-</body>
-</html>
+  <!-- Competitors -->
+  <section class="page-section fade-in">
+    <h2>Competitors / Existing Solutions</h2>
+
+    <div class="idea-grid">
+      <div class="idea-card">
+        <h3>Colgate hum Kids</h3>
+        <p>Fun app + tracking.</p>
+        <p><strong>Issue:</strong> Expensive and hard to maintain long-term.</p>
+      </div>
+
+      <div class="idea-card">
+        <h3>Philips Sonicare Kids</h3>
+        <p>2-minute timer with app.</p>
+        <p><strong>Issue:</strong> Kids can fake brushing, weak parent tracking.</p>
+      </div>
+
+      <div class="idea-card">
+        <h3>7AM2M Electric Toothbrush</h3>
+        <p>30-second reminders and long battery life.</p>
+        <p><strong>Issue:</strong> Not engaging and lacks monitoring.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Potential Solutions -->
+  <section class="page-section fade-in">
+    <h2>Potential Solutions</h2>
+
+    <div class="idea-grid">
+      <div class="idea-card">
+        <h3>Music Timer Toothbrush</h3>
+        <p>Fun, but doesn’t verify brushing.</p>
+      </div>
+
+      <div class="idea-card">
+        <h3>App-Based Tracker</h3>
+        <p>Easy to build, but relies on honesty.</p>
+      </div>
+
+      <div class="idea-card">
+        <h3>Parent Monitoring Device</h3>
+        <p>Strong accountability, but not engaging.</p>
+      </div>
+
+      <div class="idea-card">
+        <h3>Brush Buddy (Final Idea)</h3>
+        <p>Combines fun, tracking, and parent notifications.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chosen Design -->
+  <section class="page-section fade-in">
+    <h2>Chosen Design</h2>
+    <p>
+      We chose Brush Buddy because it combines entertainment, tracking, and accountability. 
+      Unlike other solutions, it doesn’t just time brushing — it helps confirm that brushing actually happens.
+    </p>
+
+    <div class="placeholder-box placeholder-large">
+      Replace with your final design image
+    </div>
+  </section>
+
+  <!-- Decision Matrix -->
+  <section class="page-section fade-in">
+    <h2>Decision Matrix (used to select design)</h2>
+    <p>
+      We compared all solutions using a decision matrix based on our key requirements.
+    </p>
+
+    <div class="placeholder-box placeholder-large">
+      Insert your matrix image here
+    </div>
+  </section>
+
+  <!-- Competitive Advantage -->
+  <section class="page-section fade-in">
+    <h2>Competitive Advantage (why design is innovative)</h2>
+    <p>
+      Brush Buddy stands out because it does more than just encourage brushing — it verifies it.
+      Most competitors rely on timers or apps, but our design adds tracking and parent notifications,
+      making it more reliable and useful.
+    </p>
+  </section>
+
+  <!-- Design Changes -->
+  <section class="page-section fade-in">
+    <h2>Design Changes Made Based on Feedback</h2>
+    <p>
+      Our design remained consistent throughout the ideation process. Feedback confirmed that our original idea 
+      was already the strongest because it combined fun, tracking, and accountability in one system.
+    </p>
+  </section>
+</main>
