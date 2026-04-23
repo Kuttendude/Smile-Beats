@@ -8,7 +8,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="pages.css">
 </head>
 <body>
   <nav class="nav">
@@ -45,45 +44,151 @@
     <a href="index.html" class="back-home">← Back to Home</a>
 
     <section class="page-section fade-in">
-      <h2>Brainstorming</h2>
-      <p>We explored multiple directions for addressing kids' brushing challenges. Here are some of the ideas we considered during our brainstorming sessions.</p>
+      <h2>Key Design Goals (Solution Requirements)</h2>
+      <p>
+        Before choosing our final design, we ranked our requirements using a numeric system:
+        High = 3, Medium = 2, Low = 1, and Not at all = 0. This helped us focus on the features
+        that would matter most for both children and parents.
+      </p>
       <div class="idea-grid">
         <div class="idea-card">
-          <h3>Music timer toothbrush</h3>
-          <p>Toothbrush with built-in speaker that plays a 2-minute song.</p>
+          <h3>Affordable</h3>
+          <p>Our toothbrush needed to cost less than $45 while still being worth buying and maintaining strong quality.</p>
         </div>
         <div class="idea-card">
-          <h3>App-based timer</h3>
-          <p>Phone or tablet app that plays music and times brushing.</p>
+          <h3>Tracks Brushing</h3>
+          <p>It needed to track whether the child actually brushed so parents could know what happened.</p>
         </div>
         <div class="idea-card">
-          <h3>Reward stickers</h3>
-          <p>Physical sticker chart to track and reward brushing.</p>
+          <h3>Parent Notifications</h3>
+          <p>Parents should be told if their child did not brush, making the product more useful and accountable.</p>
         </div>
         <div class="idea-card">
-          <h3>Smart mirror display</h3>
-          <p>Bathroom mirror that shows a timer and fun animations.</p>
+          <h3>2-Minute Music Feature</h3>
+          <p>The toothbrush needed to make music for two minutes to keep children entertained for the full brushing time.</p>
+        </div>
+        <div class="idea-card">
+          <h3>Comfort + Child Fit</h3>
+          <p>The toothbrush needed to be comfortable and small enough to fit properly inside a child’s mouth.</p>
+        </div>
+        <div class="idea-card">
+          <h3>Long-Term Use</h3>
+          <p>It needed to work over time and allow replacement tops so families would continue using it.</p>
+        </div>
+      </div>
+      <p>
+        Our most important requirements were affordability, brushing tracking, parent notification,
+        and keeping children engaged for the full two minutes.
+      </p>
+    </section>
+
+    <section class="page-section fade-in">
+      <h2>Competitors / Existing Solutions</h2>
+      <p>
+        We researched products already on the market to see what features existed and where they fell short.
+        While many products help with timing or entertainment, not all of them give parents enough accountability.
+      </p>
+      <div class="idea-grid">
+        <div class="idea-card">
+          <h3>Colgate hum Kids Manual Toothbrushes</h3>
+          <p>
+            This toothbrush uses soft bristles and an app-based system to make brushing more fun.
+            It also allows parents to track how their children brush and how long they brush for.
+          </p>
+          <p><strong>Disadvantage:</strong> It is expensive, tracking may become less useful over time, and replacement tops can be hard to find.</p>
+        </div>
+        <div class="idea-card">
+          <h3>Philips Sonicare for Kids</h3>
+          <p>
+            This toothbrush supports a two-minute brushing routine, has soft bristles,
+            and includes an app experience to make brushing more interactive.
+          </p>
+          <p><strong>Disadvantage:</strong> Kids can still fake brushing, and parents cannot clearly monitor the child’s full brushing process.</p>
+        </div>
+        <div class="idea-card">
+          <h3>7AM2M Electric Toothbrush</h3>
+          <p>
+            This toothbrush has a long battery life, multiple heads for different users,
+            and 30-second reminders to change where you are brushing.
+          </p>
+          <p><strong>Disadvantage:</strong> It is not especially fun for children and does not provide strong parent monitoring.</p>
         </div>
       </div>
     </section>
 
     <section class="page-section fade-in">
-      <h2>Concepts Considered</h2>
-      <p>We narrowed our brainstorm to concepts that were feasible, kid-friendly, and directly addressed the timing and engagement problem. We evaluated each for manufacturability, cost, and impact.</p>
+      <h2>Potential Solutions</h2>
+      <p>
+        During brainstorming, we explored several possible ways to solve the problem of children rushing or skipping brushing.
+        Some ideas focused more on fun, while others focused more on tracking or parent communication.
+      </p>
+      <div class="idea-grid">
+        <div class="idea-card">
+          <h3>Music Timer Toothbrush</h3>
+          <p>A toothbrush that plays music for two minutes to keep children engaged while brushing.</p>
+        </div>
+        <div class="idea-card">
+          <h3>App-Based Tracker</h3>
+          <p>An app that uses music, reminders, and a timer to make brushing more interactive and fun.</p>
+        </div>
+        <div class="idea-card">
+          <h3>Parent Monitoring Device</h3>
+          <p>A toothbrush designed to send updates to parents so they know whether brushing happened or not.</p>
+        </div>
+        <div class="idea-card">
+          <h3>Brush Buddy (Final Idea)</h3>
+          <p>A toothbrush that combines music, brushing tracking, and parent notification in one system.</p>
+        </div>
+      </div>
     </section>
 
     <section class="page-section fade-in">
-      <h2>Why Brush Buddy Won</h2>
-      <p>Brush Buddy emerged as the strongest concept because it combines music and timing into a single, kid-held device. No phone or screen required — kids can use it independently. The 2-minute song makes the time tangible and enjoyable. Parent connectivity adds accountability. It's simple, scalable, and directly solves the problem.</p>
-    </section>
-
-    <section class="page-section fade-in">
-      <h2>Early Sketches</h2>
+      <h2>Chosen Design</h2>
+      <p>
+        We chose Brush Buddy because it best matched our top design goals. It combines music,
+        brushing tracking, and parent accountability in one design. Unlike other solutions,
+        it does not just time brushing — it helps confirm that brushing actually happens.
+      </p>
       <div class="placeholder-grid">
-        <div class="placeholder-box">Sketch placeholder</div>
-        <div class="placeholder-box">Sketch placeholder</div>
-        <div class="placeholder-box">Sketch placeholder</div>
+        <img src="https://www.image2url.com/r2/default/images/1776965470436-0e8b0c3d-c3a2-4e0b-942b-b1bd60cb67ed.png" alt="Final Brush Buddy design" class="design-image">
       </div>
+    </section>
+
+    <section class="page-section fade-in">
+      <h2>Decision Matrix (used to select design)</h2>
+      <p>
+        We compared all of our possible solutions using a decision matrix based on our key requirements.
+        This helped us choose the design that best balanced impact, feasibility, and usefulness.
+      </p>
+      <div class="placeholder-grid">
+        <img src="https://www.image2url.com/r2/default/images/1776966289223-6209fcc8-c723-4105-a5ef-2131d9d8fac2.png" alt="Brush Buddy decision matrix" class="design-image">
+      </div>
+    </section>
+
+    <section class="page-section fade-in">
+      <h2>Competitive Advantage (why design is innovative)</h2>
+      <p>
+        Brush Buddy stands out because it does more than just encourage brushing — it verifies it.
+        Most competitors rely on timers or apps, but our design adds brushing tracking and parent notifications,
+        making it more reliable and useful.
+      </p>
+      <p>
+        It also balances fun and function. The music feature keeps children engaged for the full two minutes,
+        while the tracking and notification features help parents know whether brushing actually happened.
+      </p>
+    </section>
+
+    <section class="page-section fade-in">
+      <h2>Design Changes Made Based on Feedback</h2>
+      <p>
+        Our design remained consistent throughout the ideation process. After comparing competitors,
+        reviewing our requirements, and evaluating possible solutions, we found that our original concept
+        already best addressed the problem we were trying to solve.
+      </p>
+      <p>
+        Because of this, we did not make major design changes based on feedback. Instead, the feedback confirmed
+        that Brush Buddy was the strongest option because it combined fun, tracking, and accountability in one system.
+      </p>
     </section>
   </main>
 
