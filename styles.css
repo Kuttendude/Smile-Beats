@@ -988,4 +988,13 @@ h1, h2, h3, h4, h5, h6 {
   .team-cards {
     grid-template-columns: 1fr;
   }
+   .design-image {
+  width: 100%;
+  max-width: 850px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow);
+}
 }
